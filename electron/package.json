@@ -1,0 +1,22 @@
+{
+  "name": "electron",
+  "private": true,
+  "version": "0.0.0",
+  "type": "commonjs",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "deploy_build": "tsc && vite build --config vite.config.static_build.ts",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "electron": "^22.0.0",
+    "electron-store": "^8.1.0",
+    "pdf-lib": "^1.17.1",
+    "vite": "^4.0.3"
+  }
+}
